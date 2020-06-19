@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Таймер</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <h1 class="countdown-title">Обратный отсчет</h1>
+
+    <section class="countdown j-countdown-section">
+
+      <div class="countdown-number">
+        <p class="countdown-time j-minutes">00</p>
+        <p class="countdown-text">Мин.</p>
+      </div>
+
+      <div class="countdown-number">
+        <p class="countdown-time j-seconds">00</p>
+        <p class="countdown-text">Сек.</p>
+      </div>
+
+    </section>
+
+    <div>
+      <button class="btn j-plus-btn">+</button>
+      <button class="btn j-minus-btn">-</button>
+      <button class="btn j-start-btn">Старт</button>
+    </div>
+
+    <div class="message j-message">
+      <p class="message-text j-message-text"></p>
+      <button class="btn j-btn-restart">Заново</button>
+    </div>
+
+  </div>
+
+  <script src="timer.js" charset="utf-8"></script>
+</body>
+</html>
